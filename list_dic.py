@@ -49,6 +49,23 @@ def practica():
     
     print(listNum)
 
+#list_comprehensions
+def listComh():
+    listNum = [i for i in range(1,100001) if (i % 4 == 0) and (i % 6 == 0) and (i % 9 == 0)]
+    print(listNum)
+
+def prectica1():
+    myDic = {}
+    for i in range(1,101):
+        if i % 3 != 0:
+            myDic[i] = i**3
+
+    print(myDic)
+
+#Dict_comprehensions
+def dictComh():
+    dictNum = {i:i**0.5 for i in range(1,1001)}
+    print(dictNum)
 
 if __name__ == "__main__":
-    practica()
+    dictComh()
