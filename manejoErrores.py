@@ -1,6 +1,3 @@
-from typing import ValuesView
-
-
 def divisors(num):
     divisors = []
     if num > 0:

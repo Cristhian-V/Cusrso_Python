@@ -64,7 +64,7 @@ def prectica1():
 
 #Dict_comprehensions
 def dictComh():
-    dictNum = {i:i**0.5 for i in range(1,1001)}
+    dictNum = {i:i**0.5 for i in range(1,1001) if i%2 == 0}
     print(dictNum)
 
 if __name__ == "__main__":
